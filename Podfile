@@ -3,7 +3,7 @@ workspace 'FMDBMigrationManager'
 
 def import_pods
   pod 'Expecta', '~> 0.3.0'
-  pod 'FMDB/standard'
+  pod 'FMDB/SQLCipher'
   pod 'FMDBMigrationManager', :path => '.'
 end
 
