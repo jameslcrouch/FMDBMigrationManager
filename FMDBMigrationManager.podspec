@@ -14,12 +14,12 @@ Pod::Spec.new do |s|
   # Use the standalone build of SQLite
   s.subspec 'Standalone' do |ss|
     ss.source_files = 'Code'
-    ss.dependency 'FMDB/standalone', '>= 2.3'
+    ss.dependency 'FMDB/SQLCipher', '2.6.2'
   end
   
   # Use the system build of sqlite
   s.subspec 'System' do |ss|
     ss.source_files = 'Code'
-    ss.dependency 'FMDB/standard', '>= 2.3'
+    ss.dependency 'FMDB/SQLCipher', '2.6.2'
   end    
 end
